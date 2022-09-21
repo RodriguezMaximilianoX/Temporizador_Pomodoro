@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #300065;
+    font-family: 'Roboto', sans-serif;
+}
+
+#app{
+    background: #ffffff;
+    width: 50em;
+    margin: 3em auto;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+#app_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 1em 0;
+    color: #ffffff;
+}
+
+#time{
+    text-align: center;
+    padding: 2em 0;
+}
+
+#value{
+    font-size: 5em;
+    font-weight: bold;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#itTask{
+    width: 20vw;
+    height: 4.5vh;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    background: #D189FF;
+    color: #ffffff;
+}
+
+#itTask:focus{
+    outline: 3px solid #A82FFC;
+}
+
+#bAdd{
+    border: none;
+    border-radius: 10px;
+    margin: 0 1em;
+    padding: 1em;
+    background: #A82FFC;
+    color: #ffffff;
+}
+
+#bAdd:hover{
+    background: #7A08FA;
+    cursor: pointer;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1em;
+    margin-top: 10px;
+}
+
+.task{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.completed{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.start{
+    border: none;
+    border-radius: 10px;
+    margin: 0 1em;
+    padding: 1em;
+    background: #A82FFC;
+    color: #ffffff;
+}
+
+.start:hover{
+    background: #7A08FA;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 19px;
+}
+
+.done{
+    display: inline-block;
+    padding: 1em;
+    background: #ccc;
+    border-radius: 10px;
+}
